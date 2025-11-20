@@ -1,0 +1,77 @@
+/* Form Submissions Admin Styles */
+
+/* Unread messages - bold and light blue background */
+.ccf-unread td {
+    font-weight: bold;
+    background-color: #f6f9ff;
+}
+
+/* Read messages - lighter grey text and light grey background */
+.ccf-read td {
+    font-weight: normal;
+    color: #6c757d;
+    background-color: #f8f9fa;
+}
+
+table.widefat td {
+    vertical-align: top;
+    white-space: normal;
+    word-break: break-word;
+}
+
+table.widefat th {
+    vertical-align: middle;
+}
+
+.ccf-message-cell {
+    min-width: 250px;
+    max-width: 600px;
+    white-space: pre-wrap;
+}
+
+.ccf-table-wrapper {
+    overflow-x: auto;
+    margin-top: 15px;
+}
+
+.ccf-bulk-actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.ccf-bulk-actions select {
+    max-width: 200px;
+}
+
+.ccf-pagination {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+.ccf-pagination a,
+.ccf-pagination span.current {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.ccf-pagination a:hover {
+    background-color: #f0f0f0;
+}
+
+.ccf-pagination span.current {
+    background-color: #2271b1;
+    color: white;
+    border-color: #2271b1;
+}
+
+.ccf-pagination .disabled {
+    color: #ccc;
+    pointer-events: none;
+}
